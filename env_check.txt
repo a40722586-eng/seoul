@@ -1,0 +1,26 @@
+=== 환경 검증 결과 ===
+Python 버전: 3.12.16
+설치 방법: uv (uv venv --python 3.12 .venv, uv pip install)
+
+[패키지 버전]
+  numpy: 2.5.5
+  scipy: 1.18.1
+  pandas: 3.1.1
+  shapely: 2.2.0
+  pyogrio: 0.13.0
+  geopandas: 1.2.0
+  rasterio: 1.5.2
+  matplotlib: 3.11.2
+
+[영상 확인: seoul_s2_20260516.tif]
+  밴드 수: 2
+  화소 수: 3703 × 3021 (가로 × 세로)
+  화소 크기: 10.0 m × 10.0 m
+  좌표계: EPSG:5186
+
+[경계 데이터 확인: seoul_boundary.gpkg]
+  레이어 seoul: 1개 피처
+  레이어 gu: 25개 피처
+
+기준값 대조 요약:
+  밴드 2개 · 3703 × 3021 화소 · 10 m · EPSG:5186 · seoul 1개 · gu 25개
